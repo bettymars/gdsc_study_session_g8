@@ -26,7 +26,7 @@ void main() async {
   double result;
 
   try {
-    result = calc.divide(10, 2); // Example: performing division operation
+    result = calc.divide(10, 2); 
   } catch (e) {
     print('Error: $e');
     return;
